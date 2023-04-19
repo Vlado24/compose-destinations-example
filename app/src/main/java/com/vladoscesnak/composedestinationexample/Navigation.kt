@@ -85,7 +85,7 @@ internal fun AppNavigation(
             )
         ),
         navController = navController,
-        navGraph = NavGraphs.test,
+        navGraph = NavGraphs.root,
         modifier = modifier,
         dependenciesContainerBuilder = {
             dependency(currentNavigator())
